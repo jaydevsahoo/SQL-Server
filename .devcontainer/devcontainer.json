@@ -1,0 +1,10 @@
+{
+  "name": "Codespace with SQL Server",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "app",
+  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+  "extensions": [
+    "ms-mssql.mssql"
+  ],
+  "forwardPorts": [1433]
+}
